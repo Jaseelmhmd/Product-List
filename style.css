@@ -1,20 +1,46 @@
 body{
-    background-color: antiquewhite;
+    background-color: lightgray;
 }
+
 .container{
     display: flex;
 }
+
 .text{
     flex: 1;
     background-color: white;
     height: 4em;
     align-items: center;
 }
+
 .container2{
     display: flex;
     flex-direction: row;
     margin-top: 5vh;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+
 .box{
-    border: 2px solid red;
+    background-color: white;
+    width: 40vh;
+    margin: 1vh;
+}
+
+img{
+    height: 50vh;
+    width: 40vh;
+}
+
+.Product-title,p,.price,.details{
+    text-align: center;
+}
+
+.product-details{
+    background-color: black;
+}
+
+.details{
+    color: white;
+    margin: 0;
 }
