@@ -1,0 +1,20 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+    display: flex;
+}
+.text{
+    flex: 1;
+    background-color: white;
+    height: 4em;
+    align-items: center;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+}
+.box{
+    border: 2px solid red;
+}
