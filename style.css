@@ -1,5 +1,7 @@
 body{
     background-color: lightgray;
+    height: 100vh;
+    overflow-y:scroll ;
 }
 
 .container{
@@ -22,7 +24,7 @@ body{
 }
 
 .box{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.904);
     width: 40vh;
     margin: 1vh;
 }
@@ -41,6 +43,52 @@ img{
 }
 
 .details{
-    color: white;
+    color: rgba(255, 255, 255, 0.904);
+    padding: 2vh;
     margin: 0;
+}
+
+.box p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 80%;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .box{
+        width: 30vh;
+        margin: 0.5vh;
+    }
+    img{
+        height: 40vh;
+        width: 30vh;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .box{
+        width: 43vh;
+        margin: 0.5vh;
+    }
+    img{
+        height: 60vh;
+        width: 43vh;
+    }
+}
+
+@media screen and (max-width:2000px) and (min-width:1536px) {
+    .box{
+        width: 50vh;
+        margin: 0.5vh;
+        background-color: red;
+    }
+    img{
+        height: 60vh;
+        width: 50vh;
+    }
+    .container2{
+        min-height: 300px;
+    }
 }
