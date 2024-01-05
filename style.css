@@ -56,7 +56,7 @@ img{
   margin: auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .box{
         width: 30vh;
         margin: 0.5vh;
@@ -78,11 +78,10 @@ img{
     }
 }
 
-@media screen and (max-width:2000px) and (min-width:1536px) {
+@media screen and (max-width:2000px)  {
     .box{
         width: 50vh;
         margin: 0.5vh;
-        background-color: red;
     }
     img{
         height: 60vh;
